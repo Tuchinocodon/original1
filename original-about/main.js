@@ -16,7 +16,7 @@ $(function () {
         if(isInview){
           
             
-          $(".ms").addClass('fadeInDown');
+          $(".ms").addClass('fadeInUp');
             
         }else{
           
@@ -29,7 +29,7 @@ $(function () {
 $(function (){
     $(".skt").on("inview", function(event, isInview){
         if(isInview){
-            $(".skllpr").addClass('fadeInDown');
+            $(".skllpr").addClass('fadeInUp');
         }else{
       
             $(".skllpr").css('opacity', 0);

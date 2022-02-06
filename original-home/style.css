@@ -1,0 +1,50 @@
+.all {
+  background-color: #112949;
+}
+.about {
+  z-index: 3;
+  position: relative;
+
+  margin-left: 10%;
+  margin-top: 115px;
+  font-family: "Centry", serif;
+  display: block;
+  color: #beadd8;
+  position: absolute;
+  font-size: 120px;
+  font-weight: bold;
+}
+.loadB {
+  z-index: 0;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  top: 20px;
+  margin-left: 40%;
+  background-color: #112949;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #beadd8;
+}
+
+.hidden {
+  display: block;
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  opacity: 0;
+  background-color: #beadd8;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #112949;
+}
+
+.loadB:hover + .hidden {
+  opacity: 1;
+}
+.loadB:hover + .about {
+  color: #112949;
+  z-index: 10;
+}

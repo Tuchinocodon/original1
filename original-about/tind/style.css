@@ -1,0 +1,65 @@
+body {
+  height: 10000px;
+}
+.aaa {
+  position: relative;
+  font-size: 240%;
+  display: none;
+}
+
+#load {
+  z-index: 0;
+  width: 1000px;
+  display: unset;
+}
+#ok {
+  size: 90em;
+  display: none;
+}
+#circle {
+  position: fixed;
+  alt: "";
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
+  margin-top: -500px;
+  margin-left: -700px;
+  width: 120%;
+  height: 53%;
+  background-color: bisque;
+}
+#sai {
+  position: absolute;
+  z-index: 10;
+  margin-left: 20%;
+}
+#year {
+  position: absolute;
+
+  background-color: rgb(240, 235, 207);
+  color: rgb(224, 117, 117);
+}
+#month {
+  position: relative;
+
+  background-color: rgb(240, 235, 207);
+  color: rgb(224, 117, 117);
+}
+#day {
+  position: relative;
+
+  background-color: rgb(240, 235, 207);
+  color: rgb(224, 117, 117);
+}
+#inp {
+  margin-left: 30%;
+  margin-top: 20%;
+  position: absolute;
+  justify-content: center;
+}
+#inp button {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: -200px;
+}
