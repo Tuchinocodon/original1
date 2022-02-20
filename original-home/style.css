@@ -1,11 +1,12 @@
 .all {
   background-color: #112949;
+  height: 1200px;
 }
 .about {
   z-index: 3;
   position: relative;
-
-  margin-left: 10%;
+  display: flex;
+  margin-left: 0%;
   margin-top: 115px;
   font-family: "Centry", serif;
   display: block;
@@ -16,7 +17,8 @@
 }
 .loadB {
   z-index: 0;
-  position: fixed;
+  display: flex;
+  justify-content: center;
   width: 400px;
   height: 400px;
   top: 20px;
@@ -47,4 +49,18 @@
 .loadB:hover + .about {
   color: #112949;
   z-index: 10;
+}
+.loadA {
+  display: flex;
+  z-index: 0;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  margin-top: 70px;
+  margin-left: 40%;
+  background-color: #112949;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #beadd8;
 }
